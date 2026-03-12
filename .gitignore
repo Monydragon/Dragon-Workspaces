@@ -1,0 +1,13 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.idea/.idea.Dragon Workspaces/.idea/
+
+.idea/.idea.Dragon-Workspaces.dir/.idea/
+
+temp-build/
+
+.vs
+.cursor

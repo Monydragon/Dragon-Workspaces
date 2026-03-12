@@ -1,0 +1,26 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="AppBackgroundColor">#020617</Color>
+    <Color x:Key="PanelBackgroundColor">#0F172A</Color>
+    <Color x:Key="PanelAltBackgroundColor">#111827</Color>
+    <Color x:Key="CardBackgroundColor">#141A24</Color>
+    <Color x:Key="CardBorderColor">#223041</Color>
+    <Color x:Key="MutedBorderColor">#1E293B</Color>
+    <Color x:Key="MutedTextColor">#94A3B8</Color>
+    <Color x:Key="CaptionTextColor">#64748B</Color>
+    <Color x:Key="AccentColor">#7C3AED</Color>
+    <Color x:Key="AccentGlowColor">#337C3AED</Color>
+    <Color x:Key="OnAccentColor">#FFFFFF</Color>
+
+    <SolidColorBrush x:Key="AppBackgroundBrush" Color="{StaticResource AppBackgroundColor}" />
+    <SolidColorBrush x:Key="PanelBackgroundBrush" Color="{StaticResource PanelBackgroundColor}" />
+    <SolidColorBrush x:Key="PanelAltBackgroundBrush" Color="{StaticResource PanelAltBackgroundColor}" />
+    <SolidColorBrush x:Key="CardBackgroundBrush" Color="{StaticResource CardBackgroundColor}" />
+    <SolidColorBrush x:Key="CardBorderBrush" Color="{StaticResource CardBorderColor}" />
+    <SolidColorBrush x:Key="MutedBorderBrush" Color="{StaticResource MutedBorderColor}" />
+    <SolidColorBrush x:Key="MutedTextBrush" Color="{StaticResource MutedTextColor}" />
+    <SolidColorBrush x:Key="CaptionTextBrush" Color="{StaticResource CaptionTextColor}" />
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+    <SolidColorBrush x:Key="AccentGlowBrush" Color="{StaticResource AccentGlowColor}" />
+    <SolidColorBrush x:Key="OnAccentBrush" Color="{StaticResource OnAccentColor}" />
+</ResourceDictionary>

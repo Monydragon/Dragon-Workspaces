@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DragonWorkspaces.Core.csproj" />
+  <Project Path="DragonWorkspaces.Desktop\DragonWorkspaces.Desktop.csproj" />
+  <Project Path="DragonWorkspaces.Android\DragonWorkspaces.Android.csproj" />
+  <Project Path="DragonWorkspaces.Browser\DragonWorkspaces.Browser.csproj" />
+</Solution>

@@ -1,0 +1,38 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="using:Dragon_Workspaces.UI.Views"
+        x:Class="Dragon_Workspaces.UI.Views.MainWindow"
+        Title="Dragon Workspaces"
+        Width="1440"
+        Height="900"
+        MinWidth="1100"
+        MinHeight="720"
+        Background="{DynamicResource AppBackgroundBrush}"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaChromeHints="PreferSystemChrome"
+        mc:Ignorable="d"
+        d:DesignWidth="1440"
+        d:DesignHeight="900">
+    <Grid RowDefinitions="48,*">
+        <Border Grid.Row="0"
+                Background="Transparent"
+                PointerPressed="HeaderDragRegion_OnPointerPressed">
+            <Grid Margin="20,8,160,8"
+                  ColumnDefinitions="Auto,*"
+                  ColumnSpacing="8">
+                <TextBlock VerticalAlignment="Center"
+                           FontSize="18"
+                           FontWeight="Bold"
+                           Text="Dragon" />
+                <TextBlock Grid.Column="1"
+                           VerticalAlignment="Center"
+                           Foreground="{DynamicResource MutedTextBrush}"
+                           Text="Window Drag Region" />
+            </Grid>
+        </Border>
+
+        <views:MainView Grid.Row="1" />
+    </Grid>
+</Window>
